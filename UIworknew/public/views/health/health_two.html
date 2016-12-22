@@ -1,0 +1,46 @@
+
+<div ng-controller="health_twoCtrl">
+    <div class="Banner Banner3">
+        <div class="Conten cheaT">
+            <h1 class="hEa">Healthy life</h1>
+            <p>健康生活</p>
+            <span>SANOE与你相约每个周末!</span>
+        </div>
+    </div>
+    <div class="Conten magR_60">
+        <h3 class="fontH3">您的当前位置：<a href="#/" class="fontH3">首页</a>　/　<a href="#/health" class="fontH3">健康生活</a>　/　厨房教室</h3>
+        <div class="splEndid">
+            <h4 class="fontH4">厨房教室</h4>
+            <div>
+                <h5 class="jsH5">SANOE与你相约每个周末！</h5>
+                <h6 class="teXtH6">{{data.title}}<br>{{data.ohjgs}}</h6>
+                <div class="food clearfix">
+                    <div class="jSim tRank">
+                        <img src="images/aeg.jpg">
+                        <p>好味道精选思乐谊</p>
+                        <span></span>
+                    </div>
+                    <div class="jSim" style="float: right">
+                        <p ng-repeat="item in data.content1">
+                            <i class="maGR">{{$index+1}}</i>
+                            <strong>{{item.text}}</strong>
+                        </p>
+                    </div>
+                </div>
+               <div class="food clearfix">
+
+                    <div class="jSim " style="text-align: right">
+                        <p ng-repeat="item in data.content2">
+                            <strong>{{item.text}}</strong>
+                            <i class="ma_right">{{$index+1}}</i>
+                        </p>
+                    </div>
+                    <div class="jSim tRank" style="float: right"><img src="images/yelleow.jpg">
+                        <p>好味道精选思乐谊</p>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

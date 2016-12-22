@@ -1,0 +1,72 @@
+<div class="product_banner">
+    <a href="#/"><img src="images/productBg01_02.jpg"></a>
+</div>
+<div class="product_main">
+    <div class="inner">
+        <h4>您当前的位置：<a href="#/">首页</a> / 产品中心</h4>
+        <div class="product_tabs clear">
+            <div class="left">
+                <div class="tabs_header">
+                    <p class="title">CLASSIC经典</p>
+                </div>
+                <div class="tabs_main">
+                    <!--商品类别放这里-->
+
+                    <div class="other"></div>
+                    <a class="btn btn-block btn-default btn-lg" ng-click="selectCategory()">全部</a>
+
+                    <a class="btn" ng-repeat="item in data.categories" ng-click="selectCategory(item.category)" ng-class="item.category==selectedCategory?'btn1':''">
+                        {{item.category}}
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="tabs_header02">
+                    <p class="title">DESIGN设计</p>
+                </div>
+                <div class="tabs_main02">
+                    <a class="btn btn-block btn-default btn-lg" ng-click="selectCategory()" style="padding-top: 6px">全部</a>
+
+                    <a class="btn" ng-repeat="item in data.categories02" ng-click="selectCategory(item.category)" ng-class="item.category==selectedCategory?'btn1':''">
+                        {{item.category}}
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="products">
+            <div class="well" ng-repeat="product in data.products | filter:filterByCategory | pageFilter:pageNum:pageSize"  >
+                <a href="#detail?id={{product}}">
+                    <p>
+                        {{product.name}}
+                    </p>
+                    <img ng-src="{{product.imgsrc}}" style="padding-right: 10px;"/>
+                    <span class="lead">{{product.desc}}</span>
+
+                    <div class="icon">
+                        <i class="icon-shopping-cart"></i>
+                        <i class="icon-eye-open"></i>
+                        <i class="icon-zoom-in"></i>
+                    </div>
+                </a>
+                <div class="sanjiao">
+                    <i  id="fa fa-heart-o" class="icon-heart-empty"></i>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="pagebtn">
+            <a class="btn"
+               ng-click="selectPage(number)"
+               ng-class="number==pageNum?'btn-primary':''"
+               ng-repeat="number in data.products | filter:filterByCategory | navButtonFilter:pageSize" >
+                {{number}}
+            </a>
+        </div>
+
+
+        <br><br><br>
+
+    </div>
+</div>
+

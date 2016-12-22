@@ -1,0 +1,149 @@
+
+<div>
+    <div class="banner-h" >
+        <div class="banner-h-inner" id="banner-h">
+            <div class="banner-h-list" id="banner-h-list">
+                <a href="javascript:;"><img src="images/banner_02.jpg" /></a>
+                <a href="javascript:;"><img src="images/main.jpg" /></a>
+                <a href="javascript:;"><img src="images/banner_02.jpg" /></a>
+                <a href="javascript:;"><img src="images/main.jpg" /></a>
+            </div>
+            <ul>
+                <li class="on">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
+    </div>
+    <div class="index">
+        <div class="product-center">
+            <div class="top">
+                <div class="head">
+                    <img src="images/logo2.jpg" >
+                    <h1>产品中心</h1>
+                </div>
+
+                <p>转出色彩 转出健康</p>
+                <div class="white"></div>
+                <div class="white2"></div>
+            </div>
+            <div class="bot">
+                <ul>
+                    <li>
+                        <img src="images/main2_03.jpg" />
+                        <a href="#/product" class="a yellow">DLASSIC经典
+                            <span class="dBox">
+                                <span class="front">DLASSIC经典</span>
+                                <span class="back">DLASSIC经典</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="des">
+                        <img src="images/main1_05.jpg" />
+                        <a href="#/product" class="a green">DESIGN设计
+                            <span class="dBox">
+                                <span class="front">DESIGN设计</span>
+                                <span class="back">DESIGN设计</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="list">
+            <ul>
+                <li><img src="images/UI_09.jpg" />
+                    <span>木瓜汁制作方法</span>
+                </li>
+                <li><img src="images/UI_11.jpg" />
+                    <span>樱桃酒制作方法</span>
+                </li>
+                <li><img src="images/UI_13.jpg" />
+                    <span>苹果汁制作方法</span>
+                </li>
+                <li><img src="images/UI_15.jpg" />
+                    <span>橙汁制作方法</span>
+                </li>
+                <li><img src="images/UI_17.jpg" />
+                    <span>西瓜汁制作方法</span>
+                </li>
+                <li><img src="images/UI_19.jpg" />
+                    <span>梨汁制作方法</span>
+                </li>
+            </ul>
+        </div>
+        <div class="live">
+            <div class="top">
+                <div class="head">
+                    <img src="images/logo2.jpg" >
+                    <h1>健康生活</h1>
+                </div>
+                <p>SANOE 在您身边</p>
+                <div class="white"></div>
+                <div class="white2"></div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <div class="img">
+                        <img src="images/JIANKANG_03.jpg">
+                        <span>冰极企鹅<br>READ MORE</span>
+                    </div>
+                    <div class="text">
+                        <h2>冰极企鹅</h2>
+                        <p>思乐谊企鹅在广州市隆重登场</p>
+                        <a href="javascript:;">READ MORE</a>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="text">
+                        <h2>厨房教室</h2>
+                        <p>SANOE与你相约每个周末</p>
+                        <a href="#/health_two">READ MORE</a>
+                    </div>
+                    <div class="img">
+                        <img src="images/JIANKANG_05.jpg">
+                        <span>厨房教室<br>READ MORE</span>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="img">
+                        <img src="images/JIANKANG_08.jpg">
+                        <span>妈妈教室<br>READ MORE</span>
+                    </div>
+                    <div class="text">
+                        <h2>妈妈教室</h2>
+                        <p>健康饮食，与孩子共同成长</p>
+                        <a href="#/health_two">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="more">更多>></a>
+        </div>
+    </div>
+    <div class="picture">
+        <img src="images/list_03.jpg">
+    </div>
+    <div class="newscenter">
+        <div class="top">
+            <div class="head">
+                <img src="images/logo3.jpg" >
+                <h1>新闻中心</h1>
+            </div>
+            <p>SAONE 与您相伴</p>
+            <div class="white"></div>
+            <div class="white2"></div>
+        </div>
+        <div class="news">
+            <div class="left" ng-repeat="pop in data">
+                <div class="img">
+                    <img ng-src="{{pop.img}}" />
+                </div>
+                <h3>{{pop.title}}</h3>
+                <p>{{pop.txt}}
+                </p>
+                <a href="#/news">更多>></a>
+            </div>
+        </div>
+    </div>
+</div>

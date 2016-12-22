@@ -1,0 +1,17 @@
+
+<div >
+    <div class=" Banner Banner2"></div>
+    <div class="Conten magR_60">
+        <h3 class="fontH3">您的当前位置：<a href="#index.html" class="fontH3">首页</a>　/　服务与支持</h3>
+        <div class="splEndid" ng-repeat="ptandec in data">
+            <h4 class="fontH4"><i class="jshu"></i>{{ptandec.title}}</h4>
+            <div class="fAult bJjis">
+                <dl class="seEvech " ng-repeat="domet in ptandec.guzhang">
+                    <dt>{{$index+1}}.{{domet.dt}}</dt>
+                    <dd>{{domet.dd}}</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+

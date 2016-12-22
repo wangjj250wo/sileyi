@@ -1,0 +1,45 @@
+
+<div class="bannerpic"></div>
+<div class="main">
+    <div class="main_position">您当前的位置 :
+        <a href="#">首页</a>/<a href="#">关于我们</a>
+    </div>
+   <!-- 公司简介-->
+    <div class="main_one">
+        <h3>公司简介</h3>
+        <div class="one_bg"></div>
+        <p>创立于中国台湾的Sanoe（思乐谊），目前已经拥有20多项国际专利及40余年的小家电研发生产经验，产品被超过2000万欧美家庭使用，并获得广泛的认可和好评。Sanoe以"时尚便利和健康养生融合"为理念，以"Creative design at an affordable price"为目标，致力于让创意的小家电产品进入更多平常百姓家庭，共同分享优质生活。</p>
+        <h4>思乐怡产品行销全球:</h4>
+        <div class="one_bg_bottom"></div>
+    </div>
+    <!--品牌文化-->
+    <div class="main_two">
+        <h3>品牌文化</h3>
+
+        <div id="cloud">
+            <ul id="pic_nav clearfix">
+                <li><a href="#" id="landscaps"></a></li>
+                <li><a href="#" id="people"></a></li>
+                <li><a href="#" id="nature"></a></li>
+                <li><a href="#" id="abstract"></a></li>
+                <li><a href="#" id="urban"></a></li>
+            </ul>
+        </div>
+
+
+        <!--分割-->
+    </div>
+
+    <!--品牌历史-->
+    <div class="main_three">
+        <h3>品牌历史</h3>
+        <ul id="box">
+            <li ng-repeat="product in data">
+                <p>{{product.thing}}</p>
+                <span>{{product.time}}</span>
+            </li>
+        </ul>
+        <span class="left_btn"> < </span>
+        <span class="right_btn"> > </span>
+    </div>
+</div>

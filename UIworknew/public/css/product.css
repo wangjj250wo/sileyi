@@ -1,0 +1,493 @@
+
+img, input {
+    border: none;
+}
+
+.inner {
+    width: 1202px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: arial, "Microsoft YaHei", "宋体";
+}
+
+.product_banner {
+    background: #e8efdd;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product_main {
+    margin-top: 30px
+}
+
+.product_main h4 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 72px;
+    font-weight: bolder;
+}
+.product_main h4 a{
+    color: #000;
+}
+.product_main h4 a:hover{color: #feba4f;}
+.product_main .product_tabs {
+    height: 224px;
+    text-align: center
+}
+
+.product_main .product_tabs .left {
+    width: 50%;
+    float: left;
+    background: #c5d795
+}
+
+.product_main .product_tabs .right {
+    width: 50%;
+    float: left;
+    background: #f4d39d
+}
+
+.product_main .product_tabs .left .tabs_header {
+    height: 50px;
+    background: #83b103
+}
+
+.product_main .product_tabs .right .tabs_header02 {
+    height: 50px;
+    background: #ffa619
+}
+
+.product_main .product_tabs .left .tabs_main {
+    border-left: 1px solid #82b002;
+    border-bottom: 1px solid #82b002;
+    height: 174px;
+    text-align: center;
+}
+
+.product_main .product_tabs .right .tabs_main02 {
+    border-right: 1px solid #82b002;
+    border-bottom: 1px solid #82b002;
+    height: 174px
+}
+
+.product_main .product_tabs .title {
+    color: #fff;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.product_main .col-xs-3 {
+    position: absolute
+}
+
+.product_main .product_tabs .left .tabs_main .other {
+    height: 14px
+}
+
+.product_main .product_tabs .left .tabs_main .btn {
+    line-height: 25px;
+    color: #424242;
+    font-size: 14px;
+    display: block;
+}
+
+.product_main .product_tabs .left .tabs_main .btn1 {
+    color: #d43f3a
+}
+
+.product_main .product_tabs .left .tabs_main .btn:hover {
+    color: #d43f3a;
+    cursor: pointer
+}
+
+.product_main .product_tabs .right .tabs_main02 .other {
+    height: 14px
+}
+
+.product_main .product_tabs .right .tabs_main02 .btn {
+    line-height: 23px;
+    color: #424242;
+    font-size: 14px;
+    display: block;
+}
+
+.product_main .product_tabs .right .tabs_main02 .btn1 {
+    color: #d43f3a
+}
+
+.product_main .product_tabs .right .tabs_main02 .btn:hover {
+    color: #d43f3a;
+    cursor: pointer
+}
+
+.product_main .products {
+    text-align: center;
+    height: 1018px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: space-between;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-top: 30px
+}
+
+.product_main .products .well {
+    position: relative;
+    width: 30%;
+    height: 479px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    background: #f4f4f4;
+    display: inline-block !important;
+    overflow: hidden;
+}
+
+.product_main .products .well img {
+    width: 200px;
+    height: 320px;
+    margin-top: 26px
+}
+
+.product_main .products .well p {
+    font-size: 16px;
+    color: #8c8c8c;
+    line-height: 96px;
+    font-weight: normal
+}
+
+.product_main .products .well .sanjiao {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid #ffa619;
+    border-bottom: 80px solid transparent;
+    z-index: 999;
+}
+
+.product_main .products .well .sanjiao i {
+    position: absolute;
+    top: 13px;
+    left: -71px;
+    color: #fff;
+    font-size: 24px;
+    z-index: 999;
+    width: 40px;
+    height: 30px;
+}
+
+.product_main .products .well .icon {
+    position: absolute;
+    bottom: 3px;
+    right: 10px;
+}
+
+.product_main .products .well .icon i {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background: #ffa619;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    margin-left: 4px
+}
+
+.pagebtn {
+    float: right;
+    margin-top: 15px
+}
+
+.pagebtn .btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: #fff;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    color: #fea821;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #fea821;
+    cursor: pointer
+}
+
+.pagebtn .btn-primary {
+    background: #ffa61a;;
+    color: #fff;
+    border-color: #ffa61a
+}
+
+/*产品详情页*/
+.detail_banner {
+    background: #2e2e2e;
+    text-align: center
+}
+
+.product_detail_main h4 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 72px;
+}
+
+.product_detail_main h4 a {
+    color: #000;
+}
+
+.product_detail_main h4 a:hover {
+    color: #fea821
+}
+
+.product_detail_main .title {
+    line-height: 54px;
+    margin-top: 18px;
+    font-size: 30px;
+    color: #81b001;
+    border-bottom: 1px solid #fea821;
+    display: inline-block
+}
+
+.product_detail_main .product_title {
+    margin-top: 30px;
+    position: relative
+}
+
+.product_detail_main .product_title .product_pic {
+    position: relative;
+    width: 468px;
+    height: 468px;
+    border: 1px solid #d2d2d2;
+    position: relative;
+    text-align: center;
+    margin-left: 98px;
+}
+
+.product_detail_main .product_title .product_pic .boss {
+    width: 236px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+    height: 358px
+}
+
+.product_detail_main .product_title .product_pic .small_pic {
+    position: absolute;
+    left: -98px;
+}
+
+.product_detail_main .product_title .product_pic .small_pic .xuanxiang {
+    width: 86px;
+    height: 86px;
+    border: 1px solid #e5e5e5;
+    position: relative
+}
+
+.product_detail_main .product_title .product_pic .small_pic .xuanxiang img {
+    width: 80px;
+    height: 80px
+}
+
+.product_detail_main .product_title .product_pic .small_pic .xuanxiang img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: auto
+}
+
+.product_detail_main .product_title .product_buy {
+    position: absolute;
+    right: 200px;
+    top: 170px
+}
+
+.product_detail_main .product_title .product_buy .pirce {
+    font-size: 45px;
+    color: #81b001;
+    line-height: 147px;
+    text-align: center
+}
+
+.product_detail_main .product_title .product_buy .left {
+    display: block;
+    float: left;
+    width: 98px;
+    height: 40px;
+    border: 1px solid #fea821;
+    text-align: center;
+    color: #fea821;
+    line-height: 40px;
+    font-size: 14px;
+    margin-right: 16px;
+    border-radius: 5px
+}
+
+.product_detail_main .product_title .product_buy .left:hover {
+    color: #fff;
+    background: #fea821
+}
+
+.product_detail_main .product_title .product_buy .right {
+    display: block;
+    float: left;
+    width: 98px;
+    height: 40px;
+    border: 1px solid #81b001;
+    text-align: center;
+    color: #81b001;
+    line-height: 40px;
+    font-size: 14px;
+    border-radius: 5px
+}
+
+.product_detail_main .product_title .product_buy .right:hover {
+    color: #fff;
+    background: #81b001
+}
+
+/*内容*/
+.product_main_top .title_top {
+    line-height: 44px;
+    margin-top: 22px;
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #81b001;
+    border-bottom: 1px solid #81b001;
+    margin-top: 30px;
+    width: 38px;
+}
+
+.product_main_top .content_pic {
+    margin-top: 20px
+}
+
+.product_main_top .content_pic .pic_one {
+    background: #ebebeb;
+    text-align: center;
+}
+
+.product_main_top .content_pic .pic_two {
+    background: #fff;
+    text-align: center;
+}
+
+.product_main_bot .title_top {
+    line-height: 44px;
+    margin-top: 22px;
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #81b001;
+    border-bottom: 1px solid #81b001;
+    margin-top: 30px;
+    width: 38px;
+}
+
+.product_main_bot .introduce {
+    margin-top: 32px;
+}
+
+.product_main_bot .introduce .pic {
+    float: left;
+    margin-left: 272px;
+}
+
+.product_main_bot .introduce .pic img {
+    width: 250px;
+    height: 400px
+}
+
+.product_main_bot .introduce .content {
+    float: left;
+    margin-left: 86px;
+}
+
+.product_main_bot .introduce .content .content_title {
+    font-size: 18px;
+    line-height: 40px !important;
+}
+
+.product_main_bot .introduce .content p {
+    font-size: 14px;
+    color: #585858;
+    line-height: 26px;
+}
+
+.product_main_bot .introduce .content ul {
+    font-size: 14px;
+    color: #585858;
+    line-height: 26px;
+}
+
+.product_main_bot .xiu {
+    margin-top: 48px !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #fea821;
+    text-align: center;
+}
+
+.product_main_bot .menu .word {
+    float: left
+}
+
+.product_main_bot .menu .menu_top .name {
+    font-size: 36px;
+    color: #8bb61c;
+    line-height: 66px;
+    margin-top: 18px;
+    width: 502px;
+    border-bottom: 2px solid #eb6100
+}
+
+.product_main_bot .menu .menu_top .ready {
+    font-size: 24px;
+    color: #535353;
+    line-height: 38px;
+    margin-top: 8px;
+}
+
+.product_main_bot .menu .menu_top .Science {
+    line-height: 30px;
+    padding-bottom: 7px;
+    color: #a0a0a0;
+    font-size: 16px;
+    border-bottom: 2px solid #eb6100;
+    width: 502px
+}
+
+.product_main_bot .menu .pic {
+    float: left;
+    margin-left: 86px
+}
+
+.product_main_bot .menu .margin_top {
+    margin-top: 36px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+

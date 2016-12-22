@@ -1,0 +1,52 @@
+
+<div>
+    <div class="Banner Banner1"></div>
+    <div class="Conten">
+        <h3 class="fontH3">您的当前位置：<a href="#/" class="fontH3 hovEr">首页</a>　/　健康生活</h3>
+        <div class="splEndid">
+            <h4 class="fontH4">精彩活动</h4>
+            <div class="Hdong clearfix">
+                <div class="leFt">
+                    <div id="calendar" onselectstart="return false">
+                        <h4 id="title">日历</h4>
+                        <div id="btn" ><button type="button" id="last" style="color: #212020">上个月</button><button type="button" id="next" style="color: #212020">下个月</button></div>
+                        <div id="downBox" style="opacity:0">
+                            <select id="sYear"></select>年
+                            <select id="sMonth"></select>月
+                            <button type="button" id="downBtn">确定</button>
+                        </div>
+                        <ul class="week">
+                            <li>日</li>
+                            <li>一</li>
+                            <li>二</li>
+                            <li>三</li>
+                            <li>四</li>
+                            <li>五</li>
+                            <li>六</li>
+                        </ul>
+                        <ul id="dateList" class="dateUl"></ul>
+                    </div>
+                </div>
+                <div class="rigHt"></div>
+            </div>
+        </div>
+        <div>
+            <h4 class="fontH4">往期活动</h4>
+            <div>
+                <ul>
+                    <li class="clearfix iTem" ng-repeat="item in data.angela">
+                        <a href="#"  class="Ximg"><img ng-src="{{item.images}}"></a>
+                        <div class="teXt">
+                            <h5 class="iH5">{{item.title}}</h5>
+                            <p class="iop">{{item.congent}}</p>
+                            <time class="Itime">活动日期：{{item.time}}</time>
+                            <br>
+                            <p><a href="#/health_two" class="Corlo">活动详情>></a> </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="fooeLbot"><a href="#">更多活动　>> </a></div>
+    </div>
+</div>

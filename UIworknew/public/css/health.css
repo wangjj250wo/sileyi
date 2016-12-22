@@ -1,0 +1,81 @@
+*{margin: 0;padding: 0}
+ul{list-style: none}
+a{text-decoration: none}
+.clearfix:after{content: "200B";display: block;height: 0;font-size: 0;clear: both;}
+.clearfix{*zoom:1}
+/*健康生活及其子页面*/
+.magR_60{padding-bottom: 60px;}
+.Banner{height: 450px;margin-bottom: 30px }
+.Banner1{background-image:url("../images/banner.jpg");background-size:cover;}
+.Conten{width: 1200px;margin: 0 auto}
+.Conten .fontH3{font: 12px/30px "微软雅黑 Regular";height: 30px;color: #535353;font-weight: bolder}
+.Conten .fontH3 a:hover{color: #feba4f;}
+.Conten .hovEr:hover{color: #feba4f;}
+
+.Conten .Hdong{height: 470px;}
+.Conten .Hdong .leFt{float: left}
+.Conten .Hdong .rigHt{float: right;width: 805px;height: 455px;background-image:url("../images/8_03.jpg");background-size: cover;}
+.fontH4{font: 32px/50px "微软雅黑";border-bottom: 2px solid #fea821;display: inline-block;color: #81b001;margin: 20px 0 30px;  }
+.iTem{padding-bottom: 30px;}
+
+.Conten .Ximg{width: 465px;height: 245px;float: left;display: block;font-size: 0;overflow: hidden}
+.Conten .Ximg img{width: 100%;height: 100%;transition: all 1s;}
+.iTem>a:hover img{opacity:0.8;transform: scale(1.6)}
+.Conten .teXt{width: 702px;float: left;padding-left: 20px;overflow: hidden;}
+.iTem .iH5{font-size:24px;color: #545454;font-family: "Regular 微软雅黑";font-weight: bold}
+.iTem .iop{font: 18px/24px "微软雅黑";color: #a0a0a0;margin: 20px 0 }
+.Conten .Itime,.Corlo{color: #df8310;font-size: 16px;line-height: 30px}
+.Corlo{transition: all 1s;}
+.Corlo:hover{color: red;font-size: 20px;}
+/*服务与技术支持*/
+.jshu{width: 24px;height: 29px;display: inline-block;background: url("../images/jshu.jpg") no-repeat;padding-right: 7px;}
+.Banner2{background-image: url("../images/F-0.jpg");background-size: cover;}
+.fAult{border: 1px solid #f39800;width: 100%;}
+.seEvech{padding: 30px 40px;}
+.seEvech dt{font: 24px/45px "微软雅黑";color: #535252;}
+.seEvech dd{font: 16px/35px "微软雅黑";color: #a0a0a0}
+.bJjis{background: url("../images/jishubj.jpg") no-repeat right bottom;}
+
+/*服务与技术---三级页面支持*/
+.Banner3{background-image:url("../images/bj_banner.jpg");background-size:cover;}
+.cheaT{position: relative;height: 100%}
+.teXtH6{height: 70px;font-size: 16px;color: #565e6a;font-weight: normal}
+ .hEa{font-size: 159px; font-family: "Arial Bold","arial";color: #cddebc;opacity: .7;text-transform: uppercase;padding-top: 50px;}
+.cheaT p{margin:-58px 0 0 120px;position: relative    ;font-size:106px;font-weight: bold;font-family: "微软雅黑" ;border: 2px solid #6a8c06 ;color: #ffa922;border-radius:11px;height: 128px;width: 542px; line-height: 128px;text-align: center}
+.cheaT p:after{content: "";height: 2px;width:360px ;background: #ffa922;display: block;position: absolute;right: 63px;bottom: -40px;}
+.cheaT span{font-size: 34px;font-family:"arial","微软雅黑";color: #434345;position: absolute;right: 175px;bottom: 90px;}
+.splEndid .jsH5{color: #fea821;font: 26px/80px "微软雅黑";height: 80px;}
+.jSim{width: 526px;height: 506px;float: left;font-size: 16px;color: #9f9f9f;position: relative;}
+.tRank span{display: block;width: 515px;height: 420px;background: rgba(0,0,0,.5);position: absolute;left: 0;top: 0 ;transition:opacity  1s;opacity: 0 }
+.tRank>p{text-align: center;line-height: 66px;transition:all 1s;position: absolute;bottom: 130px;opacity: 0;height: 66px;color: #fff;z-index: 2}
+.tRank:hover p{;opacity: 1;transform:translateY(-200px);font-size: 30px; }
+.tRank:hover span{opacity: 1;}
+.jSim strong{font-size: 16px;color: #9f9f9f;font-weight: normal}
+.jSim img{width: 527px;height: 440px;}
+.jSim p{position: relative;margin: 40px 0}
+.maGR{position: absolute;left: -74px;top: 0;}
+.ma_right{position: absolute;right: -74px;top: 0;}
+.jSim i{width: 24px;height: 24px; background: #82b005;color: #fff;line-height: 24px;text-align: center;display: inline-block;border-radius:50% ;font-size: 14px;font-style: normal;}
+/*日历*/
+/************/
+#calendar{width: 350px;overflow: hidden;-moz-user-select:none}/*Firefox中可以使用CSS "-moz-user-select:none"属性来禁止文本选定!!!!!!!*/
+#calendar h4{text-align: center;margin-bottom: 10px;font-size: 28px;cursor: default;}
+#calendar .week{width: 350px;height: 50px;line-height: 50px;border-bottom: 1px solid #ccc;margin-bottom: 10px;}
+#calendar .week li{float: left;width: 50px;height: 50px;text-align: center;font-size: 22px;cursor: default;}
+#calendar .dateUl{overflow: hidden;clear: both;width: 350px;}
+#calendar .dateUl li{float: left;width: 50px;height: 50px;text-align: center;line-height: 50px;font-size: 20px;cursor: default}
+#calendar .dateUl li.ccc{color: #ccc;}
+#calendar .dateUl li.red{background:#82b103 ;}
+#calendar .dateUl li.sun{color: #f00;}
+#calendar .dateUl li.dianji{border:2px solid #82b103;width: 46px;height: 46px;line-height: 46px;color: #cccccc;}
+#btn{height: 30px;margin-bottom: 20px;}
+#last{width: 70px;height: 50px;line-height: 50px;float: left;cursor: pointer;background-color: transparent;color: #fff;border: none;font-size: 16px;}
+#next{width: 70px;height: 50px;line-height: 50px;float: right;cursor: pointer;background-color: transparent;color: #fff;border: none;font-size: 16px;}
+#downBox{height: 50px;line-height: 50px;font-size: 20px;color: #fff;}
+#downBox select{height: 30px;margin: 10px 0;font-size: 16px;margin: 0 10px;}
+/*最底部的更多活动*/
+.fooeLbot{height: 160px;text-align: right;line-height: 160px;}
+.fooeLbot>a{display: inline-block;border: 1px solid #535353;font-size: 12px;color: #666d77;line-height:38px;height: 38px;text-align: center;width: 160px;transition:all ease 1s }
+.fooeLbot>a:hover{background: #fea81d;color: #fff;transform: translateX(20px);font-size: 16px;border: 1px solid red}
+
+
